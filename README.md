@@ -7,10 +7,14 @@ React Native 프로젝트를 빠르게 시작할 수 있도록 TypeScript, axios
 
 ## 🧪 사용법
 
+1. 템플릿을 이용해 새 프로젝트 생성:
+
 ```bash
-npx react-native init MyApp \
+npx @react-native-community/cli init MyApp \
   --template git+https://github.com/your-username/my-rn-template.git
 ```
+> 위 명령어는 템플릿을 기반으로 MyApp이라는 이름의 프로젝트를 생성합니다.
+단, 설치 과정에서 의존성 충돌(peer dependency conflict)이 발생할 수 있습니다. 폴더 이동 후 `yarn install`실행 시 정상 설치됩니다.
 
 ## 📁 포함된 기본 구조
 
