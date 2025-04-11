@@ -1,0 +1,20 @@
+{
+  "name": "react-native-tempalte",
+  "version": "1.0.0",
+  "description": "React Native custom template",
+  "keywords": [
+    "react-native",
+    "template",
+    "typescript",
+    "axios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bongzniak/react-native-tempalte.git"
+  },
+  "license": "MIT",
+  "templateConfig": {
+    "placeholderName": "TemplateApp",
+    "templateDir": "./template"
+  }
+}
